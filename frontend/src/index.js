@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
-import App from "./src/components/App";
-import Home from "./src/components/Home";
+import App from "./components/App";
 
-import { AuthProvider } from "./src/contexts/auth";
+import { AuthProvider } from ".//contexts/auth";
 
 ReactDOM.render(
   <React.StrictMode>
