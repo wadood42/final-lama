@@ -10,6 +10,9 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node index.js"
   },
+  "engines": {
+    "node": "15.3.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
